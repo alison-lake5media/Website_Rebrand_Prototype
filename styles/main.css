@@ -1,0 +1,133 @@
+/*put shit here */
+/*don't forget to make a flexbox holder */
+/*add breaks for screen sizes !!!! */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.logo {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+h3 {
+    font-size: 18px;
+    font-style: italic;
+}
+.navHolder {
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+}
+ul {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline-block;
+    padding: 2%;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    float: right;
+    background-color: #5984F5;
+}
+.login-button:hover {
+    background-color: #f5ca59;
+}
+.mainHolder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.accent-block {
+    justify-content: center;
+    background-color: #3d5293;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.color-block {
+    /*FLOAT LEFT*/
+    float: left;
+    background: #5984F5;
+    padding: 10px;
+    width: 50px;
+    height: 300px;
+    margin: 0px 50px;
+    clear: left;
+}
+.text-block {
+    width: 80%;
+    padding: 50px 75px;
+    /*CLEAR LEFT OF COLOR-BLOCK */
+}
+.icon {
+    height: 250px;
+    width: 250px;
+    background: black;
+    float: left;
+    margin-right: 20px;
+    clear: left;
+}
+.icon-text {
+    padding: 15px;
+}
+
+.footer {
+    clear: both;
+    background: #5984F5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 10px;
+    padding-top: 45px;
+}
+
+.footer strong {
+    font-size: 10px;
+}
+
+.footer li {
+    display: block;
+    font-size: 10px;
+    padding: 0px;
+}
+
+.footer li a {
+    font-size: 10px;
+}
+
+.info-holder {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.info-holder p {
+    font-size: 10px;
+    color: white;
+}
+
+/*solutions-specific css*/
+.solution-text {
+    width: 75%;
+    padding: 20px 40px;
+}
+
+.solutions {
+    width: 100%;
+    padding: 50px;
+}
